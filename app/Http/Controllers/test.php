@@ -15,6 +15,5 @@ class test extends Controller
         $writer = new \BaconQrCode\Writer($renderer);
         $writer->writeFile('Hello Tessssst!', 'images/qrcode.png');
 
-        test gded fel controller
     }
 }
